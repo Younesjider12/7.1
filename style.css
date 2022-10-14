@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    height: 992px;
+    width: 100%;
+    position: relative;
+}
+
+@media screen and (max-width: 576px) {
+    .logo{
+        background-color: blue;
+    }
+    .title{
+        background-color: rgb(79, 232, 160);
+    }
+    .title2{
+        background-color: pink;
+    }
+    .title3{
+        background-color: rgb(23, 9, 68);
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    .logo{
+        background-color: pink;
+    }
+
+    .title1{
+        background-color: red;
+    }
+    .title2{
+        background-color: lightblue
+    }
+
+    .title3{
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .logo{
+        background-color: red;
+
+    }
+    .title1{
+        background-color: yellow;
+
+    }
+    .title2{
+        background-color: orange;
+    }
+
+    .title3{
+        background-color: green;
+    }
+}
+
+.logo{
+    color: white;
+    height: 10%;
+    width: 100%;
+}
+
+.title1{
+    height: 30%;
+    width: 100%;
+}
+
+.title2{
+    height: 30%;
+    width: 100%;
+}
+
+.title3{
+    height: 30%;
+    width: 100%;
+}
+
+
+
+
+
+
